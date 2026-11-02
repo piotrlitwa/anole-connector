@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "anole": {
+      "type": "http",
+      "url": "https://anole.app/mcp/"
+    }
+  }
+}

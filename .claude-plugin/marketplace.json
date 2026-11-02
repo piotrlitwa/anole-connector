@@ -1,5 +1,5 @@
 {
-  "name": "aiv",
+  "name": "anole",
   "owner": {
     "name": "Piotr Litwa",
     "url": "https://anole.app"
@@ -9,8 +9,8 @@
   },
   "plugins": [
     {
-      "name": "aiv",
-      "source": "./plugins/aiv",
+      "name": "anole",
+      "source": "./plugins/anole",
       "description": "Audit how AI-ready your website is, write and publish Markdown pages for LLMs and keep llms.txt up to date, from the chat."
     }
   ]

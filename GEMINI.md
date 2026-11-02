@@ -1,6 +1,6 @@
 # Anole AI Visibility
 
-The `aiv` MCP server connects to the user's Anole account (https://anole.app). Anole audits
+The `anole` MCP server connects to the user's Anole account (https://anole.app). Anole audits
 website URLs for AI readiness (0-100 score: Markdown version, canonical, JSON-LD, H1, meta),
 serves llms.txt and hosts Markdown pages for LLMs.
 
@@ -15,4 +15,4 @@ serves llms.txt and hosts Markdown pages for LLMs.
   search) compares a page with the top 10 for a phrase; turn `gaps` and `heading_topics_missing`
   into a rewrite plan. Analysed pages count towards the plan quota.
 - Changes require the Own Key plan; on a read-only plan, share the billing link from the error.
-- Authentication is OAuth: if tools fail with an authentication error, run `/mcp auth aiv`.
+- Authentication is OAuth: if tools fail with an authentication error, run `/mcp auth anole`.

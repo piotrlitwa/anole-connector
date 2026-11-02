@@ -1,18 +1,18 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.piotrlitwa/aiv",
+  "name": "io.github.piotrlitwa/anole",
   "title": "Anole AI Visibility",
   "description": "Audit website AI readiness, publish Markdown pages for LLMs and manage llms.txt.",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "websiteUrl": "https://anole.app/en/connect",
   "repository": {
-    "url": "https://github.com/piotrlitwa/aiv-connector",
+    "url": "https://github.com/piotrlitwa/anole-connector",
     "source": "github"
   },
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://aiv.piotrlitwa.com/mcp/"
+      "url": "https://anole.app/mcp/"
     }
   ]
 }

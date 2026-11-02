@@ -6,25 +6,25 @@ it audits every sitemap URL for AI readiness, serves `llms.txt` for your site an
 pages written for LLMs. With the connector you review the audit, find the weakest pages, analyse
 content for SEO and GEO, compare a page with the top 10 search results for a phrase, and create, AI-generate and publish Markdown pages without leaving the chat.
 
-**Server URL:** `https://aiv.piotrlitwa.com/mcp/` (remote, Streamable HTTP, OAuth 2.1).
+**Server URL:** `https://anole.app/mcp/` (remote, Streamable HTTP, OAuth 2.1).
 Nothing to install or run locally and no API key to copy: you sign in with your Anole account and
 approve access. A free Anole account can read; adding sites and creating or publishing pages from
 the chat is part of the Own Key plan.
 
 This repository contains only the connector manifests, skills and documentation. The Anole service
-itself runs at anole.app (technical address of the server: aiv.piotrlitwa.com).
+itself runs at anole.app.
 
 ## Install
 
 | App | How |
 |---|---|
 | **Claude** (web, Desktop, mobile) | Customize → Connectors → **Add custom connector** → paste the server URL → Connect. |
-| **Claude Code** | `/plugin marketplace add piotrlitwa/aiv-connector` then `/plugin install aiv@aiv` (connector + skills). Connector only: `claude mcp add --transport http aiv https://aiv.piotrlitwa.com/mcp/`, then `/mcp` → Authenticate. |
+| **Claude Code** | `/plugin marketplace add piotrlitwa/anole-connector` then `/plugin install anole@anole` (connector + skills). Connector only: `claude mcp add --transport http anole https://anole.app/mcp/`, then `/mcp` → Authenticate. |
 | **ChatGPT** | Settings → Apps & Connectors → Advanced → Developer mode → **Create**: paste the server URL, authentication OAuth. |
-| **Codex CLI** | `codex mcp add aiv --url https://aiv.piotrlitwa.com/mcp/` then `codex mcp login aiv`. |
-| **Gemini CLI** | `gemini extensions install https://github.com/piotrlitwa/aiv-connector`, then `/mcp auth aiv`. |
-| **Cursor** | [Add to Cursor](https://cursor.com/en/install-mcp?name=aiv&config=eyJ1cmwiOiJodHRwczovL2Fpdi5waW90cmxpdHdhLmNvbS9tY3AvIn0%3D) |
-| **VS Code** (Copilot) | [Install in VS Code](https://insiders.vscode.dev/redirect/mcp/install?name=aiv&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A//aiv.piotrlitwa.com/mcp/%22%7D) |
+| **Codex CLI** | `codex mcp add anole --url https://anole.app/mcp/` then `codex mcp login anole`. |
+| **Gemini CLI** | `gemini extensions install https://github.com/piotrlitwa/anole-connector`, then `/mcp auth anole`. |
+| **Cursor** | [Add to Cursor](https://cursor.com/en/install-mcp?name=anole&config=eyJ1cmwiOiJodHRwczovL2Fub2xlLmFwcC9tY3AvIn0%3D) |
+| **VS Code** (Copilot) | [Install in VS Code](https://insiders.vscode.dev/redirect/mcp/install?name=anole&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A//anole.app/mcp/%22%7D) |
 | **Other MCP clients** | Add a remote (Streamable HTTP) server with the URL above; OAuth is discovered automatically. |
 
 The Gemini app on gemini.google.com does not accept custom connectors yet; use Gemini CLI.
@@ -49,7 +49,7 @@ Changes (Own Key plan): `add_site`, `crawl_site`, `create_document`, `generate_d
 
 ```
 .claude-plugin/marketplace.json   Claude Code plugin marketplace
-plugins/aiv/                      the plugin (Claude + ChatGPT/Codex Agent Plugins format)
+plugins/anole/                      the plugin (Claude + ChatGPT/Codex Agent Plugins format)
   .claude-plugin/plugin.json      Claude manifest
   .mcp.json                       MCP server for Claude
   plugin.json, mcp.json           portable Agent Plugins manifest (OpenAI)
