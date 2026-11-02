@@ -1,11 +1,11 @@
 ---
 name: ai-visibility-audit
-description: Audit how ready a website is for AI assistants using the AIV connector, and turn the results into a prioritised fix list. Use when the user asks why their site is not cited by ChatGPT, Claude, Gemini or Perplexity, asks for an AI visibility, GEO or llms.txt audit, or wants to know which pages to improve first.
+description: Audit how ready a website is for AI assistants using the Anole connector, and turn the results into a prioritised fix list. Use when the user asks why their site is not cited by ChatGPT, Claude, Gemini or Perplexity, asks for an AI visibility, GEO or llms.txt audit, or wants to know which pages to improve first.
 ---
 
-# AI visibility audit with AIV
+# AI visibility audit with Anole
 
-AIV crawls the site sitemap and scores every URL 0-100 for AI readiness: a Markdown version of
+Anole crawls the site sitemap and scores every URL 0-100 for AI readiness: a Markdown version of
 the page, a canonical URL, JSON-LD structured data, a single H1, title and meta description.
 It also serves an llms.txt file for the site and compares it with the sitemap.
 
@@ -32,7 +32,7 @@ Give the user a short report:
 - the average score and how many URLs have a Markdown version,
 - the top issues grouped by type (for example "12 product pages have no JSON-LD"),
 - a prioritised list of at most 10 actions, most impact first, each naming the URLs it covers,
-- which actions AIV can do from the chat (create or generate Markdown pages and publish them,
+- which actions Anole can do from the chat (create or generate Markdown pages and publish them,
   see the publish-llm-pages skill) and which need changes on the website itself.
 
 Link the panel (`panel_url` from the overview) for details. Keep numbers exact; do not invent

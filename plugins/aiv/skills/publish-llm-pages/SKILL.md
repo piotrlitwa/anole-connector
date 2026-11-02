@@ -1,11 +1,11 @@
 ---
 name: publish-llm-pages
-description: Create, improve and publish Markdown pages for LLMs with the AIV connector, so they get a public .md URL and an entry in the site llms.txt. Use when the user wants an AI-friendly or Markdown version of a page, wants to write content for AI assistants, or asks to update or publish llms.txt entries.
+description: Create, improve and publish Markdown pages for LLMs with the Anole connector, so they get a public .md URL and an entry in the site llms.txt. Use when the user wants an AI-friendly or Markdown version of a page, wants to write content for AI assistants, or asks to update or publish llms.txt entries.
 ---
 
-# Publish Markdown pages for LLMs with AIV
+# Publish Markdown pages for LLMs with Anole
 
-Every published AIV document gets a public `.md` URL and an entry in the site llms.txt, which is
+Every published Anole document gets a public `.md` URL and an entry in the site llms.txt, which is
 what AI assistants read. Drafts are private until published.
 
 ## Create a draft
@@ -13,10 +13,10 @@ what AI assistants read. Drafts are private until published.
 Choose the source that fits the request:
 
 - **From an existing page:** `create_document` with `source_url` (a page on the same domain).
-  AIV converts the HTML to clean Markdown.
+  Anole converts the HTML to clean Markdown.
 - **From text the user gives or you write together:** `create_document` with `markdown` and
   `title`.
-- **Written by the AIV AI writer:** `generate_document` with a `topic`. This uses AI credits
+- **Written by the Anole AI writer:** `generate_document` with a `topic`. This uses AI credits
   unless the account has the Own Key plan; check `get_account` and tell the user the cost first.
 
 Use the site language unless the user asks for another (`lang`).

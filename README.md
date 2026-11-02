@@ -1,18 +1,18 @@
-# AIV - AI Visibility connector
+# Anole AI Visibility connector
 
-Connect your [AIV](https://aiv.piotrlitwa.com) account to Claude, ChatGPT, Gemini CLI, Cursor,
-VS Code and any other MCP client. AIV makes websites discoverable and citable by AI assistants:
+Connect your [Anole](https://anole.app) account to Claude, ChatGPT, Gemini CLI, Cursor,
+VS Code and any other MCP client. Anole makes websites discoverable and citable by AI assistants:
 it audits every sitemap URL for AI readiness, serves `llms.txt` for your site and hosts Markdown
 pages written for LLMs. With the connector you review the audit, find the weakest pages, analyse
 content for SEO and GEO, compare a page with the top 10 search results for a phrase, and create, AI-generate and publish Markdown pages without leaving the chat.
 
 **Server URL:** `https://aiv.piotrlitwa.com/mcp/` (remote, Streamable HTTP, OAuth 2.1).
-Nothing to install or run locally and no API key to copy: you sign in with your AIV account and
-approve access. A free AIV account can read; adding sites and creating or publishing pages from
+Nothing to install or run locally and no API key to copy: you sign in with your Anole account and
+approve access. A free Anole account can read; adding sites and creating or publishing pages from
 the chat is part of the Own Key plan.
 
-This repository contains only the connector manifests, skills and documentation. The AIV service
-itself runs at aiv.piotrlitwa.com.
+This repository contains only the connector manifests, skills and documentation. The Anole service
+itself runs at anole.app (technical address of the server: aiv.piotrlitwa.com).
 
 ## Install
 
@@ -60,10 +60,10 @@ server.json                       official MCP Registry entry
 
 ## Privacy and support
 
-The connector reads and changes only the data of the AIV account you connect, and it does not
-receive your conversations. [Privacy Policy](https://piotrlitwa.com/privacy.html) ·
-[Terms](https://piotrlitwa.com/terms.html) · Disconnect any time at
-[Connected apps](https://aiv.piotrlitwa.com/mcp/connect.php) ·
+The connector reads and changes only the data of the Anole account you connect, and it does not
+receive your conversations. [Privacy Policy](https://anole.app/en/privacy/) ·
+[Terms](https://anole.app/en/terms/) · Disconnect any time at
+[Connected apps](https://anole.app/en/connect) ·
 Support: piotr@piotrlitwa.com
 
 ## License

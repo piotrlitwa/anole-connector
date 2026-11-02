@@ -2,10 +2,10 @@
   "name": "aiv",
   "owner": {
     "name": "Piotr Litwa",
-    "url": "https://aiv.piotrlitwa.com"
+    "url": "https://anole.app"
   },
   "metadata": {
-    "description": "AIV (AI Visibility): make websites discoverable and citable by AI assistants."
+    "description": "Anole: make websites discoverable and citable by AI assistants."
   },
   "plugins": [
     {

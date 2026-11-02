@@ -1,12 +1,12 @@
 ---
 name: setup
-description: First-run setup for the AIV connector. Checks the connection, shows the plan, and helps add and crawl the first website. Use right after installing AIV or when the user asks how to start with AIV.
+description: First-run setup for the Anole connector. Checks the connection, shows the plan, and helps add and crawl the first website. Use right after installing Anole or when the user asks how to start with Anole.
 ---
 
-# Set up AIV
+# Set up Anole
 
-1. Call `get_account`. If it fails with an authentication error, ask the user to connect AIV
-   (sign in with their AIV account; creating one is free at https://aiv.piotrlitwa.com).
+1. Call `get_account`. If it fails with an authentication error, ask the user to connect Anole
+   (sign in with their Anole account; creating one is free at https://anole.app).
 2. Tell the user their plan in one line. On a read-only plan, explain that reading the audit
    works, while adding sites and creating or publishing pages from the chat need the Own Key plan.
 3. Call `list_sites`.

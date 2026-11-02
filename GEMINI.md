@@ -1,6 +1,6 @@
-# AIV - AI Visibility
+# Anole AI Visibility
 
-The `aiv` MCP server connects to the user's AIV account (https://aiv.piotrlitwa.com). AIV audits
+The `aiv` MCP server connects to the user's Anole account (https://anole.app). Anole audits
 website URLs for AI readiness (0-100 score: Markdown version, canonical, JSON-LD, H1, meta),
 serves llms.txt and hosts Markdown pages for LLMs.
 
