@@ -1,6 +1,7 @@
 # Anole AI Visibility connector
 
 [![mcptry](https://mcptry.com/badge/io.github.piotrlitwa/anole)](https://mcptry.com/servers/io.github.piotrlitwa/anole)
+[![Anole AI Visibility MCP server on mcprush](https://mcprush.com/badge/anole-ai-visibility-mcp/card.svg)](https://mcprush.com/to/anole-ai-visibility-mcp?ref=badge)
 
 Connect your [Anole](https://anole.app) account to Claude, ChatGPT, Gemini CLI, Cursor,
 VS Code and any other MCP client. Anole makes websites discoverable and citable by AI assistants:
